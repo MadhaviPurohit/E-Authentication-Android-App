@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MiniProjectSemIII</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="image">image</string>
+    <string name="mini_project_sem_iii">MINI PROJECT SEM III</string>
+    <string name="login_screen">LOGIN SCREEN</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+</resources>
