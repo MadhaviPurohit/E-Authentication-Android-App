@@ -122,37 +122,3 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 }
-
-/*if (task.isSuccessful) {
-
-    //Firebase registered user
-    val firebaseUser: FirebaseUser = task.result!!.user!!
-
-    Toast.makeText(
-        this@RegisterActivity,
-        "Registration Successful",
-        Toast.LENGTH_SHORT
-    ).show()
-
-    /**
-     * Here the new user is automatically signed in
-     * so we sign out and send the user to main screen with user id
-     * and email that the user has used for registration
-     */
-
-    val intent =
-        Intent(this@RegisterActivity, MainActivity::class.java)
-    intent.flags =
-        Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-    intent.putExtra("user_id", firebaseUser.uid)
-    intent.putExtra("email_id", email)
-    startActivity(intent)
-    finish()
-} else {
-    //If the registering is not successful then show error message
-    Toast.makeText(
-        this@RegisterActivity,
-        task.exception!!.message.toString(),
-        Toast.LENGTH_SHORT
-    ).show()
-}*/
